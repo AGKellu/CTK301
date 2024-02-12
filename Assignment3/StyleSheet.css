@@ -1,0 +1,27 @@
+p {
+    color: #ff0000;
+    background-color: aquamarine;
+}
+.HeaderOne{
+    color: #0015ff;
+    background-color: black;
+}
+.HeaderTwo{
+    color: #00ff88;
+    background-color: chartreuse;
+}
+.HeaderThree{
+    color: #ff9993;
+    background-color: lightcyan;
+}
+
+a:link{
+    color:red;
+}
+a:visited{
+    color: green;
+}
+
+a:hover{
+ color:yellow;
+}
