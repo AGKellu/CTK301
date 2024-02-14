@@ -1,0 +1,36 @@
+.DoctorsDaughter{
+    background-color: yellow;
+}
+.Inferno{
+    color : red;
+}
+#InfernoHeader{
+    background-color: yellow;
+}
+#PoisonHeader{
+    color: white;
+}
+.FirstParagraph{
+    background-color: lightblue;
+}
+a:link{
+    text-decoration: none;
+    color: green;
+}
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+#PompeiiFire{
+    color: blue;
+}
+#DoctorsDaughterHeader{
+    color: red;
+}
+#ModernArt{
+    background-color: lightgreen;
+}
+#FathersDayHeader{
+    color:yellow;
+    background-color: green;
+}
