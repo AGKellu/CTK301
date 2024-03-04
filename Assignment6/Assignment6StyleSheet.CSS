@@ -1,0 +1,88 @@
+.body{
+    background-image: url(a62.png);   
+}
+.justify{
+    text-align: justify;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.HeaderOne{
+    background-color: black;
+    color: white;
+    font: helvetica;
+    font-weight: normal;
+    padding: 14px;
+    grid-column: span 4;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+nav {
+    grid-column: span 1;
+    margin-left: 12px;
+}
+nav li{
+    width: 200px;
+}
+nav li a{
+    display: block;
+    background-color: red;
+    border: 1px solid black;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 12px;
+}
+nav li a:hover{
+    background-color: darkred;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.lmao{
+
+    border: 2px solid black;
+    padding: 12px;
+    float: left;
+    margin-right: 6px;
+}
+main{
+    background-color: white;
+    
+    padding: 12px;
+    grid-column: span 3;
+}
+#wrapper{
+    display: grid;
+    width: 960px;
+    padding: 0px;
+    margin: 1em auto;
+    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 2px solid black;
+}
+.footer{
+    border: 2px solid black;
+    padding: 12px;
+    margin: 0px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    grid-column: span 4;
+    font: Verdana;
+    font-style: italic;
+}
+.HeaderTwo{
+    font: helvetica;
+    border-bottom: 2px solid black;
+    padding-bottom: 12px;
+}
+.wikilink{
+    color:red;
+    text-decoration: solid;
+}
+.wikilink:hover{
+    color: blue;
+    text-decoration: underline;
+}
