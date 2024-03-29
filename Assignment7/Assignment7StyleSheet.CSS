@@ -1,0 +1,170 @@
+
+.justify{
+    text-align: justify;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.HeaderOne{
+    background-color: #3480eb;
+    color: white;
+    font-family: helvetica;
+    font-weight: normal;
+    padding: 14px;
+    grid-column: span 4;
+    font-style: italic;
+}
+.HeaderOne a{
+    color:white;
+    text-decoration: none;
+}
+header{
+    grid-column: span 4;
+    background-color: #3480eb;
+    border: 2px solid blue;
+    border-bottom: none;
+}
+nav {
+    background-color: #6495ed;
+    background-image: linear-gradient(to top, #3480eb, #4385ec, #4f8aec, #5a90ed, #6495ed);
+    grid-column: span 4;
+    font-family: helvetica;
+}
+nav li{
+    width: 250px;
+    height:50px;
+    display: inline-block;
+    }
+nav li a{
+    display: block;
+    background-image: linear-gradient(to top, #3480eb, #4385ec, #4f8aec, #5a90ed, #6495ed);
+
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    border-left: 2px solid blue;
+    border-right: 2px solid blue; 
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    
+}
+nav li a:hover{
+    color: white;
+    background-image: linear-gradient(to bottom, #3480eb, #4385ec, #4f8aec, #5a90ed, #6495ed);
+
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.lmao{
+    
+    border: 2px solid black;
+    padding: 12px;
+    float: left;
+    margin-right: 6px;
+}
+
+
+main{
+    grid-column: span 3;
+    padding: 12px;
+    border-top:2px solid blue;
+    border-right:2px solid blue;
+    border-bottom:2px solid blue;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
+}
+.Page2Main{
+    border-left: 2px solid blue;
+    border-right: 0px;
+    padding: 12px;
+}
+
+.Page3Main{
+    grid-column: span 4;
+    border-left: 2px solid blue;
+}
+section{
+    display: inline-block;
+    width: 300px;
+    margin-left: 12px;
+}
+section img{ 
+    width: 100%;
+}
+main a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+main a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+aside{
+    background-color: lightblue;
+    border-top: 2px solid blue;
+    border-left: 2px solid blue;
+    border-bottom: 2px solid blue;
+    padding: 12px;
+    grid-column: span 1;
+}
+.Page2Aside{
+    border-left: 0px;
+}
+#wrapper{
+    display: grid;
+    width: 960px;
+    padding: 0px;
+    margin: 1em auto;
+    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 2px solid black;
+}
+footer{
+
+    grid-column: span 4;
+    background-color: red;
+    border: 2px solid blue;
+}
+.HeaderTwo{
+    font-family: helvetica;
+    border-bottom: 2px solid black;
+    padding-bottom: 6px;
+    grid-column: span 4;
+    text-align: justify;
+    color: blue;
+}
+.headerTwo{
+    font-family: helvetica;
+    border-bottom: 2px solid blue;
+    
+    grid-column: span 4;
+    text-align: justify;
+    color: blue;
+}
+.wikilink{
+    color:red;
+    text-decoration: solid;
+}
+.wikilink:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.Barbies{
+    border: 2px solid blue;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    
+    float: left;
+    
+}
+.Oppie{
+    border: 2px solid blue;
+    padding: 0;
+    float: right;
+    margin-right: 6px;
+}
